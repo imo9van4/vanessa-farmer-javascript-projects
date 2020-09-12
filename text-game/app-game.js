@@ -403,8 +403,8 @@ const textNodes = [
       nextText: 29
     },
     {
-    text: "Attack the Fairy",
-    nextText: 18
+    text: "Attack him",
+    nextText: 40
     }
 ]
 },
@@ -580,6 +580,18 @@ const textNodes = [
     }
 ]
 },
+  {
+    id: 40,
+    text: "Even the PRIEST defeats you. You better complete your QUEST!",
+    setState: {Sword: true, Vittles: true},
+    options: [
+    {
+      text: "Game Over",
+      nextText: 1
+    }
+]
+},
+  
 ]
 
 startGame();
